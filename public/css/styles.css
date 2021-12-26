@@ -1,0 +1,465 @@
+body {
+  background-color: #30475e;
+  font-family: "Montserrat-Bold";
+}
+
+hr {
+  border: dotted #588da8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 50px;
+}
+
+.chart1 {
+  background-color: #88e1f2;
+  display: inline-block;
+  border-radius: 5%;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.chart2 {
+  background-color: #fff;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.growthtrendchart {
+  margin-top: 3%;
+  margin-bottom: 4%;
+  border-radius: 3%;
+}
+
+.visualize-spread {
+  background-color: #ff8582;
+  text-align: center;
+  font-family: "Comic Neue";
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1%;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.tested {
+  background-color: #4f8a8b;
+  text-align: center;
+  font-family: "Comic Neue";
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1%;
+  border-radius: 20%;
+  display: inline-block;
+}
+
+.tested h6 a{
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+.tested h6 a:hover{
+  text-decoration: none;
+  outline: none;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.row {
+  margin: 0;
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Comic Neue";
+}
+
+.aftercollapse {
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+  width: 100%;
+}
+
+/* Developer speaks */
+.creditdiv {
+  text-align: left;
+}
+
+.quotes {
+  text-align: center;
+}
+
+.mdl-bdy {
+  margin: 5%;
+}
+
+/* country data cards */
+.casecard {
+  display: inline-block;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 20%;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  text-align: center;
+  line-height: 2.5;
+  margin: 1.5%;
+  transition: 0.4s;
+}
+
+.card-ttl {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+}
+
+.card-case {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
+.card-inc {
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+
+.card-inc-actv {
+  color: #a5c9fd;
+}
+
+.card-1 {
+  background-color: #ff8582;
+  color: #5a0502;
+}
+
+.card-2 {
+  background-color: #a5c9fd;
+  color: #002c56;
+}
+
+.card-3 {
+  background-color: #9ae69c;
+  color: #015b25;
+}
+
+.card-4 {
+  background-color: #888888;
+  color: #000000;
+}
+
+.casecard:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.col-sm-3 {
+  text-align: center;
+}
+
+.last-updated {
+  /* text-align: right; */
+  font-size: 1.2rem;
+  font-family: "Comic Neue";
+  color: #dbdbdb;
+  color: rgba(255, 255, 255, .5);
+  margin: 3%;
+}
+
+/* state data table */
+.table-color {
+  background-color: #30475e;
+}
+
+.table-shadow {
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+}
+
+thead {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+th {
+  position: sticky;
+  top: 0;
+}
+
+tbody {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.state-name {
+  text-align: left;
+}
+
+.tspan {
+  background-color: #343a40;
+  margin-left: 3%;
+  border-radius: 10%;
+}
+
+.district-target {
+  text-decoration: none;
+  color: #fff;
+}
+
+.district-target:hover {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dis-modal-title {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Montserrat';
+}
+
+.delta-text-cnf {
+  font-family: 'Montserrat';
+  font-size: 0.6rem;
+  color: #eb6383;
+}
+
+.delta-text-rec {
+  font-family: 'Montserrat';
+  font-size: 0.6rem;
+  color: #85ef47;
+}
+
+.delta-text-death {
+  font-family: 'Montserrat';
+  font-size: 0.6rem;
+  color: #888888;
+}
+
+.state-note{
+  padding: 5% 15% 5% 15%;
+}
+/* Awareness */
+.awrns {
+  text-align: center;
+  font-family: "Comic Neue";
+  color: #fff;
+}
+
+/* Footer Section */
+.footersection {
+  background-color: #738598;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 2% 8%;
+}
+
+.footertext {
+  color: black;
+  font-size: 1rem;
+}
+
+.btndwn {
+  margin-right: 0.625em;
+  margin-left: 0.625em;
+  margin-top: 5px;
+}
+
+.footerdiv {
+  margin-top: 3.125em;
+}
+
+.cntdiv {
+  margin: 5%;
+  padding-bottom: 0;
+}
+
+.totop-img {
+  width: 3.125em;
+  height: 3.125em;
+}
+
+.developerDetail {
+  margin-top: 30px;
+  font-family: "Italianno";
+  font-size: 1.7rem;
+}
+
+.devlink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.devlink:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.download {
+  text-decoration: none;
+}
+
+.download1 {
+  color: #fff;
+}
+
+.download2 {
+  color: #000;
+}
+
+.download1:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.download2:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+/* adding media queries */
+@media (max-width: 1028px) {
+  nav {
+    margin: 4%;
+  }
+
+  .main {
+    margin-top: 10%;
+  }
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .nav-link, .awrns {
+    font-size: 2.5rem;
+  }
+
+  .modal-content, .developerDetail {
+    font-size: 2rem;
+  }
+
+  .modal-dialog {
+    max-width: 100%;
+    max-height: 90%;
+    margin-top: 10%;
+  }
+
+  .modal-title {
+    line-height: 3;
+    font-size: 1.5rem;
+  }
+
+  .close {
+    font-size: 3rem;
+  }
+
+  .modal-close-btn {
+    padding: 3%;
+  }
+
+  .dis-modal-title {
+    font-size: 2.5rem;
+  }
+
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+
+  .card {
+    height: 300px;
+  }
+
+  .card-header {
+    margin-bottom: 35px;
+  }
+
+  .tested h4{
+    font-size: 1.6rem;
+  }
+  .tested h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .tested h6{
+    font-size: 1rem;
+  }
+
+  .visualize-spread{
+    font-size: 1.8rem;
+  }
+
+  .increasedata, .lastupdated {
+    font-size: 1.6rem;
+  }
+
+  .country-graph, .state-graph {
+    margin-top: 10%;
+  }
+
+  .col-sm-6 {
+    max-width: 100%;
+  }
+
+  .card-header, .footertext, tbody {
+    font-size: 1.8rem;
+  }
+
+  .card-title {
+    font-size: 3rem;
+  }
+
+  table {
+    margin-top: 100px;
+  }
+
+  thead {
+    font-size: 1.3rem;
+  }
+
+  .district-target{
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    height: 100px;
+  }
+
+  .delta-text-cnf, .delta-text-rec, .delta-text-death {
+    font-size: 0.9rem
+  }
+
+  /* .state-name {
+    text-align: center;
+  } */
+  .twit {
+    padding-top: 30px;
+  }
+
+  .developerDetail {
+    margin-bottom: 15%;
+  }
+}
